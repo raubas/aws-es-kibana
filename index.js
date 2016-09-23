@@ -9,6 +9,7 @@ var stream = require('stream');
 var figlet = require('figlet');
 var basicAuth = require('basic-auth-connect');
 var compress = require('compression');
+require('dotenv').load();
 
 var yargs = require('yargs')
     .usage('usage: $0 [options] <aws-es-cluster-endpoint>')
